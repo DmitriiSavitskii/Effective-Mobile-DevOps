@@ -4,7 +4,7 @@ After=network.target
 
 [Service]
 Type=simple
-ExecStart=/usr/local/bin/monitor-test.sh
+ExecStart=/usr/local/bin/monitor_test.sh
 Restart=on-failure
 RestartSec=60
 
